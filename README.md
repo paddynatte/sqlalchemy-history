@@ -1,10 +1,10 @@
 # sqlalchemy-history
 
-Lightweight async-compatible audit history for SQLAlchemy 2.0+
+Lightweight async-compatible history for SQLAlchemy 2.0+
 
 ## Installation
 
-pip install sqlalchemy-history## Usage
+uv add git+https://github.com/paddynatte/sqlalchemy-history.git
 
 from sqlalchemy_history import Versioned, init_versioning
 
